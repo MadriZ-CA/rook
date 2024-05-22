@@ -1,0 +1,69 @@
+[{"clusterID":"rook-ceph","monitors":["10.108.23.30:6789","10.106.240.119:6789","10.109.250.44:6789"],"cephFS":{"netNamespaceFilePath":"","subvolumeGroup":"","kernelMountOptions":"","fuseMountOptions":""},"rbd":{"netNamespaceFilePath":"","radosNamespace":""},"nfs":{"netNamespaceFilePath":""},"readAffinity":{"enabled":false,"crushLocationLabels":["kubernetes.io/hostname","topology.kubernetes.io/region","topology.kubernetes.io/zone","topology.rook.io/chassis","topology.rook.io/rack","topology.rook.io/row","topology.rook.io/pdu","topology.rook.io/pod","topology.rook.io/room","topology.rook.io/datacenter"]},"namespace":"rook-ceph"},{"clusterID":"6ce7824f6ae653f41176f58ec8768ad6","monitors":["10.108.23.30:6789","10.106.240.119:6789","10.109.250.44:6789"],"cephFS":{"netNamespaceFilePath":"","subvolumeGroup":"csi","kernelMountOptions":"","fuseMountOptions":""},"rbd":{"netNamespaceFilePath":"","radosNamespace":""},"nfs":{"netNamespaceFilePath":""},"readAffinity":{"enabled":false,"crushLocationLabels":["kubernetes.io/hostname","topology.kubernetes.io/region","topology.kubernetes.io/zone","topology.rook.io/chassis","topology.rook.io/rack","topology.rook.io/row","topology.rook.io/pdu","topology.rook.io/pod","topology.rook.io/room","topology.rook.io/datacenter"]},"namespace":"rook-ceph"}]
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<0>
+    <clusterID>rook-ceph</clusterID>
+    <monitors>10.108.23.30:6789</monitors>
+    <monitors>10.106.240.119:6789</monitors>
+    <monitors>10.109.250.44:6789</monitors>
+    <cephFS>
+        <netNamespaceFilePath></netNamespaceFilePath>
+        <subvolumeGroup></subvolumeGroup>
+        <kernelMountOptions></kernelMountOptions>
+        <fuseMountOptions></fuseMountOptions>
+    </cephFS>
+    <rbd>
+        <netNamespaceFilePath></netNamespaceFilePath>
+        <radosNamespace></radosNamespace>
+    </rbd>
+    <nfs>
+        <netNamespaceFilePath></netNamespaceFilePath>
+    </nfs>
+    <readAffinity>
+        <enabled>false</enabled>
+        <crushLocationLabels>kubernetes.io/hostname</crushLocationLabels>
+        <crushLocationLabels>topology.kubernetes.io/region</crushLocationLabels>
+        <crushLocationLabels>topology.kubernetes.io/zone</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/chassis</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/rack</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/row</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/pdu</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/pod</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/room</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/datacenter</crushLocationLabels>
+    </readAffinity>
+    <namespace>rook-ceph</namespace>
+</0>
+<1>
+    <clusterID>6ce7824f6ae653f41176f58ec8768ad6</clusterID>
+    <monitors>10.108.23.30:6789</monitors>
+    <monitors>10.106.240.119:6789</monitors>
+    <monitors>10.109.250.44:6789</monitors>
+    <cephFS>
+        <netNamespaceFilePath></netNamespaceFilePath>
+        <subvolumeGroup>csi</subvolumeGroup>
+        <kernelMountOptions></kernelMountOptions>
+        <fuseMountOptions></fuseMountOptions>
+    </cephFS>
+    <rbd>
+        <netNamespaceFilePath></netNamespaceFilePath>
+        <radosNamespace></radosNamespace>
+    </rbd>
+    <nfs>
+        <netNamespaceFilePath></netNamespaceFilePath>
+    </nfs>
+    <readAffinity>
+        <enabled>false</enabled>
+        <crushLocationLabels>kubernetes.io/hostname</crushLocationLabels>
+        <crushLocationLabels>topology.kubernetes.io/region</crushLocationLabels>
+        <crushLocationLabels>topology.kubernetes.io/zone</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/chassis</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/rack</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/row</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/pdu</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/pod</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/room</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/datacenter</crushLocationLabels>
+    </readAffinity>
+    <namespace>rook-ceph</namespace>
+</1>

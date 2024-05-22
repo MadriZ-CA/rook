@@ -1,0 +1,36 @@
+[{"clusterID":"rook-ceph","monitors":["10.43.121.218:6789","10.43.188.86:6789","10.43.135.83:6789"],"cephFS":{"netNamespaceFilePath":"","subvolumeGroup":"","kernelMountOptions":"","fuseMountOptions":""},"rbd":{"netNamespaceFilePath":"","radosNamespace":""},"nfs":{"netNamespaceFilePath":""},"readAffinity":{"enabled":false,"crushLocationLabels":["kubernetes.io/hostname","topology.kubernetes.io/region","topology.kubernetes.io/zone","topology.rook.io/chassis","topology.rook.io/rack","topology.rook.io/row","topology.rook.io/pdu","topology.rook.io/pod","topology.rook.io/room","topology.rook.io/datacenter"]},"namespace":"rook-ceph"}]
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<0>
+    <clusterID>rook-ceph</clusterID>
+    <monitors>10.43.121.218:6789</monitors>
+    <monitors>10.43.188.86:6789</monitors>
+    <monitors>10.43.135.83:6789</monitors>
+    <cephFS>
+        <netNamespaceFilePath></netNamespaceFilePath>
+        <subvolumeGroup></subvolumeGroup>
+        <kernelMountOptions></kernelMountOptions>
+        <fuseMountOptions></fuseMountOptions>
+    </cephFS>
+    <rbd>
+        <netNamespaceFilePath></netNamespaceFilePath>
+        <radosNamespace></radosNamespace>
+    </rbd>
+    <nfs>
+        <netNamespaceFilePath></netNamespaceFilePath>
+    </nfs>
+    <readAffinity>
+        <enabled>false</enabled>
+        <crushLocationLabels>kubernetes.io/hostname</crushLocationLabels>
+        <crushLocationLabels>topology.kubernetes.io/region</crushLocationLabels>
+        <crushLocationLabels>topology.kubernetes.io/zone</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/chassis</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/rack</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/row</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/pdu</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/pod</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/room</crushLocationLabels>
+        <crushLocationLabels>topology.rook.io/datacenter</crushLocationLabels>
+    </readAffinity>
+    <namespace>rook-ceph</namespace>
+</0>
